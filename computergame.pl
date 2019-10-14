@@ -22,7 +22,7 @@ skill(invisibility).
 skill(timetravel).
 skill(telepathy).
 
-has_skill(X,Y):- character(X),skill(Y)
+has_skill(X,Y):- character(X),skill(Y).
 
-has_pet(X,Y):- character(X),pet(Y)
+has_pet(X,Y):- character(X),pet(Y).
 
